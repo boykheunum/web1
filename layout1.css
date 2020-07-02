@@ -1,0 +1,261 @@
+/*comment*/
+* {
+  color: black;
+  padding: 0; /*Thuá»™c tÃ­nh thÃªm vÃ o khoáº£ng khÃ´ng cho thÃ nh pháº§n.*/
+  margin: 0; /*Thuá»™c tÃ­nh canh lá» cho thÃ nh pháº§n.*/
+  font-family: 'Segoe UI';
+  font-size: 16px;
+}
+img{
+  opacity: 1 !important;
+}
+
+.Header {
+  display: flex;
+}
+.theme {
+  background-image: url("image/871649_harry-potter-and-the-deathly-hallows-hd-desktop-wallpapers_1920x1200_h (1).jpg");
+  padding: 4%;
+}
+h1#fontside {
+  background-color: #002a32;
+  font-size: 21px;
+  color: white;
+}
+
+ul.menu span {
+  font-size: 20px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*menu*/
+.menu {
+  z-index: 9999999;
+  position: relative;
+  background-color: aqua; /*mÃ u cá»§a ná»n*/
+  display: flex;
+  width: 80%;
+}
+.menu a {
+  text-decoration: none; /*loáº¡i bá» gáº¡ch chÃ¢n cho link.*/
+  color: aqua;
+}
+.menu ul {
+  list-style: none; /*cho style cá»§a cÃ¡c list ul trong menu vá» none.*/
+  position: absolute; /*Thuá»™c tÃ­nh xÃ¡c Ä‘á»‹nh loáº¡i cá»§a phÆ°Æ¡ng phÃ¡p Ä‘á»‹nh vá»‹ trÃ­ cho thÃ nh pháº§n gt absolute lÃ  cho ná»•i lÃªn trÃªn.*/
+  top: 42px;
+  left: 0px;
+  display: none;
+}
+.menu li {
+  float: left;
+  width: 151px; /*thiáº¿t láº­p chiá»u rá»™ng*/
+  list-style: none; /*cho style cá»§a cÃ¡c list li trong menu vá» none.*/
+  line-height: 15px; /*Thuá»™c tÃ­nh thiáº¿t láº­p chiá»u cao giá»¯a cÃ¡c dÃ²ng.*/
+  position: relative;
+  text-align: center; /*sáº¯p xáº¿p ná»™i dung theo chiá»u ngang*/
+  background: #002a32; /*mÃ u cá»§a ná»n*/
+  padding: 13px;
+}
+.menu li:hover {
+  background-color: green;
+  cursor: pointer;
+}
+/*search*/
+.navbar .search-content {
+  background-color: #002a32;
+  float: right;
+  width: 20%;
+}
+.navbar input[type="text"] {
+  padding: 6px 10px;
+  margin-top: 8px;
+  /* margin-right: 16px; */
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  width: 76%;
+  cursor: pointer;
+}
+
+.navbar .search-content button {
+  /* float: right; */
+  padding: 6px 10px;
+  margin-top: 8px;
+  /* margin-right: 16px; */
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  background: aqua;
+  font-size: 18px;
+}
+.tieude{
+  padding: 1rem;
+  font-size: 30px;
+}
+
+.navbar .search-content button:hover {
+  background: #ccc;
+}
+.topnav input[type="text"] {
+  border: 1px solid #ccc;
+}
+.MainContent {
+  display: block;
+  /* color: black; */
+  text-align: left;
+  background-color: rgb(245, 254, 255,0.8);
+  width: 74%;
+  margin-left: 13%;
+
+}
+/*slide show*/
+.slide img {
+  vertical-align: middle;
+  width: 670px;
+  height: 376px;
+}
+img.imagenhanvat {
+  width: 14%;
+  height: 176px;
+}
+.slide {
+  display: none;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.khoi-slide1 {
+  /* opacity: 1 !important; */
+  text-align: center;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+#btn-prev {
+  left: 3%;
+}
+#btn-next {
+  right: 4%;
+}
+#btn-prev:hover,
+#btn-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.nut-slide a {
+  z-index: 10;
+  cursor: pointer;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  top: 43%;
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  opacity: 0.9;
+  font-size: 60px;
+  text-align: center;
+}
+.button-dot {
+  position: relative;
+  top: -20px;
+  left: -15px;
+}
+
+.baiviet {
+  text-align: left;
+  display: flex;
+  justify-content: end;
+}
+
+.MainContentLeft {
+  opacity: 1;
+  width: 70%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,.dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.live-after-dead {
+  float: left;
+  display: flex;
+}
+
+
+.paragraph-menu a {
+    border: 1px solid #fff;
+    display: block;
+}
+.paragraph-menu .p{
+  display: inline-block;
+    margin: 10px 25px;
+    width: 35%;
+    line-height: 50px;
+    text-align: center;
+    background-color: #a34112;
+    border: 2px solid transparent;
+    font-size: 180%;
+    font-family: times;
+    position: relative;
+}
+.paragraph-menu .p:hover{
+  background-color: white;
+}
+.paragraph p {
+  line-height: 26px;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.bao {
+  display: flex;
+}
+
+.dieuhuong {
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+.dieuhuong h2 {
+  font-size: 25px;
+}
