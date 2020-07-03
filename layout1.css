@@ -170,7 +170,7 @@ img.imagenhanvat {
   top: 43%;
   position: absolute;
   color: white;
-  font-size: 10px;
+  /* font-size: 10px; */
   opacity: 0.9;
   font-size: 60px;
   text-align: center;
@@ -272,4 +272,55 @@ img.imagenhanvat {
   text-align: center;
   margin: 0;
   margin-top: 5%;
+}
+.paragraph1 {
+  display: flex;
+  transform: translate(1%, 1%);
+  float: left;
+}
+
+.paragraph {line-height: 145%;margin: 0;padding: 0;}
+.footer {
+  padding: 0;
+  display: flex;
+  background-color: #002a32;
+  margin: 0;
+  justify-content: center;
+}
+
+.footer a {
+  color: aqua;
+  /* text-decoration: none; */
+}
+.footer h3 {
+  color: white;
+  /* text-decoration: none; */
+}
+.footer a ul li {
+  /* list-style: none; */
+  display: block;
+}
+
+.column1 ul {
+  list-style: none;
+}
+.tai img {width: 85px;}
+
+.ios img {
+    width: 117px;
+}
+
+.imagebanner {
+    display: flex;
+}
+
+.column1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    line-height: 163%;
+}
+.column4 {
+  width: 11%;
 }
