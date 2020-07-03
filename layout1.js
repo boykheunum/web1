@@ -7,6 +7,14 @@ $(document).ready(function () {
    }
 
    );
+
+   $('.taikhoan li').hover(function () {
+      $(this).find("ul:first").slideDown(500);/*khi hover chuot thi se hien ra bang menu*/
+   }, function () {
+      $(this).find("ul:first").hide(100);/*khi bo hover thi se bien mat*/
+   }
+
+   );
    
 });
 /*slide anh*/

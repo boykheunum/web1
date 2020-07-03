@@ -112,12 +112,11 @@ ul.menu span {
 }
 .MainContent {
   display: block;
-  /* color: black; */
+  color: black;
   text-align: left;
   background-color: rgb(245, 254, 255,0.8);
   width: 74%;
   margin-left: 13%;
-
 }
 /*slide show*/
 .slide img {
@@ -324,3 +323,75 @@ img.imagenhanvat {
 .column4 {
   width: 11%;
 }
+
+
+.taikhoan {
+  z-index: 9999999;
+  position: relative;
+  /* background-color: aqua; */ /*mÃ u cá»§a ná»n*/
+  /* display: flex; */
+  width: 80%;
+}
+.taikhoan a {
+  text-decoration: none; /*loáº¡i bá» gáº¡ch chÃ¢n cho link.*/
+  /* color: aqua; */
+}
+.taikhoan ul {
+  list-style: none; /*cho style cá»§a cÃ¡c list ul trong menu vá» none.*/
+  position: absolute; /*Thuá»™c tÃ­nh xÃ¡c Ä‘á»‹nh loáº¡i cá»§a phÆ°Æ¡ng phÃ¡p Ä‘á»‹nh vá»‹ trÃ­ cho thÃ nh pháº§n gt absolute lÃ  cho ná»•i lÃªn trÃªn.*/
+  top: 42px;
+  left: 0px;
+  display: none;
+}
+.taikhoan li {
+  float: left;
+  width: 151px; /*thiáº¿t láº­p chiá»u rá»™ng*/
+  list-style: none; /*cho style cá»§a cÃ¡c list li trong menu vá» none.*/
+  line-height: 15px; /*Thuá»™c tÃ­nh thiáº¿t láº­p chiá»u cao giá»¯a cÃ¡c dÃ²ng.*/
+  position: relative;
+  text-align: center; /*sáº¯p xáº¿p ná»™i dung theo chiá»u ngang*/
+  /* background: #002a32; */ /*mÃ u cá»§a ná»n*/
+  padding: 13px;
+}
+.taikhoan li:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.dangnhap{
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  width: 300px;
+  height: 300px;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  text-align: center;
+  background-color:wheat;
+}
+.dangnhap h2{
+  color: black;
+}
+.dangnhap input{
+  width: 260px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 2%;
+}
+.dangnhap button{
+  width: 200px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  background-color:orange;
+}
+.dangnhap p{
+  text-align: left;
+} 
+
+.checkbox input{
+width: 20px;
+height: 20px;
+}  
