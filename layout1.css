@@ -1,8 +1,8 @@
 /*comment*/
 * {
   color: black;
-  padding: 0; /*Thuá»™c tÃ­nh thÃªm vÃ o khoáº£ng khÃ´ng cho thÃ nh pháº§n.*/
-  margin: 0; /*Thuá»™c tÃ­nh canh lá» cho thÃ nh pháº§n.*/
+  padding: 0; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh thÃƒÂªm vÃƒÂ o khoÃ¡ÂºÂ£ng khÃƒÂ´ng cho thÃƒÂ nh phÃ¡ÂºÂ§n.*/
+  margin: 0; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh canh lÃ¡Â»Â cho thÃƒÂ nh phÃ¡ÂºÂ§n.*/
   font-family: 'Segoe UI';
   font-size: 16px;
 }
@@ -37,29 +37,29 @@ ul.menu span {
 .menu {
   z-index: 9999999;
   position: relative;
-  background-color: aqua; /*mÃ u cá»§a ná»n*/
+  background-color: aqua; /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
   display: flex;
   width: 80%;
 }
 .menu a {
-  text-decoration: none; /*loáº¡i bá» gáº¡ch chÃ¢n cho link.*/
+  text-decoration: none; /*loÃ¡ÂºÂ¡i bÃ¡Â»Â gÃ¡ÂºÂ¡ch chÃƒÂ¢n cho link.*/
   color: aqua;
 }
 .menu ul {
-  list-style: none; /*cho style cá»§a cÃ¡c list ul trong menu vá» none.*/
-  position: absolute; /*Thuá»™c tÃ­nh xÃ¡c Ä‘á»‹nh loáº¡i cá»§a phÆ°Æ¡ng phÃ¡p Ä‘á»‹nh vá»‹ trÃ­ cho thÃ nh pháº§n gt absolute lÃ  cho ná»•i lÃªn trÃªn.*/
+  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list ul trong menu vÃ¡Â»Â none.*/
+  position: absolute; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh xÃƒÂ¡c Ã„â€˜Ã¡Â»â€¹nh loÃ¡ÂºÂ¡i cÃ¡Â»Â§a phÃ†Â°Ã†Â¡ng phÃƒÂ¡p Ã„â€˜Ã¡Â»â€¹nh vÃ¡Â»â€¹ trÃƒÂ­ cho thÃƒÂ nh phÃ¡ÂºÂ§n gt absolute lÃƒÂ  cho nÃ¡Â»â€¢i lÃƒÂªn trÃƒÂªn.*/
   top: 42px;
   left: 0px;
   display: none;
 }
 .menu li {
   float: left;
-  width: 151px; /*thiáº¿t láº­p chiá»u rá»™ng*/
-  list-style: none; /*cho style cá»§a cÃ¡c list li trong menu vá» none.*/
-  line-height: 15px; /*Thuá»™c tÃ­nh thiáº¿t láº­p chiá»u cao giá»¯a cÃ¡c dÃ²ng.*/
+  width: 151px; /*thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu rÃ¡Â»â„¢ng*/
+  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list li trong menu vÃ¡Â»Â none.*/
+  line-height: 15px; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu cao giÃ¡Â»Â¯a cÃƒÂ¡c dÃƒÂ²ng.*/
   position: relative;
-  text-align: center; /*sáº¯p xáº¿p ná»™i dung theo chiá»u ngang*/
-  background: #002a32; /*mÃ u cá»§a ná»n*/
+  text-align: center; /*sÃ¡ÂºÂ¯p xÃ¡ÂºÂ¿p nÃ¡Â»â„¢i dung theo chiÃ¡Â»Âu ngang*/
+  background: #002a32; /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
   padding: 13px;
 }
 .menu li:hover {
@@ -179,18 +179,6 @@ img.imagenhanvat {
   top: -20px;
   left: -15px;
 }
-
-.baiviet {
-  text-align: left;
-  display: flex;
-  justify-content: end;
-}
-
-.MainContentLeft {
-  opacity: 1;
-  width: 70%;
-}
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -222,6 +210,17 @@ img.imagenhanvat {
 .live-after-dead {
   float: left;
   display: flex;
+}
+/* ket thuc slide */
+.baiviet {
+  text-align: left;
+  display: flex;
+  justify-content: end;
+}
+
+.MainContentLeft {
+  opacity: 1;
+  width: 70%;
 }
 
 
@@ -267,10 +266,11 @@ img.imagenhanvat {
   height: 305px;
 }
 .MainContentRight {
-  padding: 0;
+  padding: 0px;
   text-align: center;
-  margin: 0;
-  margin-top: 5%;
+  margin: 0px;
+  margin-top: 7%;
+  line-height: 163%;
 }
 .paragraph1 {
   display: flex;
@@ -328,29 +328,29 @@ img.imagenhanvat {
 .taikhoan {
   z-index: 9999999;
   position: relative;
-  /* background-color: aqua; */ /*mÃ u cá»§a ná»n*/
+  /* background-color: aqua; */ /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
   /* display: flex; */
   width: 80%;
 }
 .taikhoan a {
-  text-decoration: none; /*loáº¡i bá» gáº¡ch chÃ¢n cho link.*/
+  text-decoration: none; /*loÃ¡ÂºÂ¡i bÃ¡Â»Â gÃ¡ÂºÂ¡ch chÃƒÂ¢n cho link.*/
   /* color: aqua; */
 }
 .taikhoan ul {
-  list-style: none; /*cho style cá»§a cÃ¡c list ul trong menu vá» none.*/
-  position: absolute; /*Thuá»™c tÃ­nh xÃ¡c Ä‘á»‹nh loáº¡i cá»§a phÆ°Æ¡ng phÃ¡p Ä‘á»‹nh vá»‹ trÃ­ cho thÃ nh pháº§n gt absolute lÃ  cho ná»•i lÃªn trÃªn.*/
+  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list ul trong menu vÃ¡Â»Â none.*/
+  position: absolute; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh xÃƒÂ¡c Ã„â€˜Ã¡Â»â€¹nh loÃ¡ÂºÂ¡i cÃ¡Â»Â§a phÃ†Â°Ã†Â¡ng phÃƒÂ¡p Ã„â€˜Ã¡Â»â€¹nh vÃ¡Â»â€¹ trÃƒÂ­ cho thÃƒÂ nh phÃ¡ÂºÂ§n gt absolute lÃƒÂ  cho nÃ¡Â»â€¢i lÃƒÂªn trÃƒÂªn.*/
   top: 42px;
   left: 0px;
   display: none;
 }
 .taikhoan li {
   float: left;
-  width: 151px; /*thiáº¿t láº­p chiá»u rá»™ng*/
-  list-style: none; /*cho style cá»§a cÃ¡c list li trong menu vá» none.*/
-  line-height: 15px; /*Thuá»™c tÃ­nh thiáº¿t láº­p chiá»u cao giá»¯a cÃ¡c dÃ²ng.*/
+  width: 151px; /*thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu rÃ¡Â»â„¢ng*/
+  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list li trong menu vÃ¡Â»Â none.*/
+  line-height: 15px; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu cao giÃ¡Â»Â¯a cÃƒÂ¡c dÃƒÂ²ng.*/
   position: relative;
-  text-align: center; /*sáº¯p xáº¿p ná»™i dung theo chiá»u ngang*/
-  /* background: #002a32; */ /*mÃ u cá»§a ná»n*/
+  text-align: center; /*sÃ¡ÂºÂ¯p xÃ¡ÂºÂ¿p nÃ¡Â»â„¢i dung theo chiÃ¡Â»Âu ngang*/
+  /* background: #002a32; */ /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
   padding: 13px;
 }
 .taikhoan li:hover {
@@ -395,3 +395,19 @@ img.imagenhanvat {
 width: 20px;
 height: 20px;
 }  
+.game {
+  display: flex;
+  padding: 2%;
+  margin: 0%;
+}
+
+.game-information {
+  padding: 0;
+  margin: 1%;
+  line-height: 145%;
+}
+div#grad1 {
+  background-image: red;
+  background-color: orange;
+  height: 3px;
+}
