@@ -1,8 +1,9 @@
 /*comment*/
+/*comment*/
 * {
   color: black;
-  padding: 0; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh thÃƒÂªm vÃƒÂ o khoÃ¡ÂºÂ£ng khÃƒÂ´ng cho thÃƒÂ nh phÃ¡ÂºÂ§n.*/
-  margin: 0; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh canh lÃ¡Â»Â cho thÃƒÂ nh phÃ¡ÂºÂ§n.*/
+  padding: 0; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o khoÃƒÂ¡Ã‚ÂºÃ‚Â£ng khÃƒÆ’Ã‚Â´ng cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n.*/
+  margin: 0; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh canh lÃƒÂ¡Ã‚Â»Ã‚Â cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n.*/
   font-family: 'Segoe UI';
   font-size: 16px;
 }
@@ -21,6 +22,8 @@ img{
   padding: 4%;
 }
 h1#fontside {
+  margin-left: 3%;
+  margin-top: 0%;
   background-color: #002a32;
   font-size: 21px;
   color: white;
@@ -37,29 +40,30 @@ ul.menu span {
 .menu {
   z-index: 9999999;
   position: relative;
-  background-color: aqua; /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
+  background-color: #002a32; /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
   display: flex;
-  width: 80%;
+  width: 100%;
+  height: 53px;
 }
 .menu a {
-  text-decoration: none; /*loÃ¡ÂºÂ¡i bÃ¡Â»Â gÃ¡ÂºÂ¡ch chÃƒÂ¢n cho link.*/
+  text-decoration: none; /*loÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â gÃƒÂ¡Ã‚ÂºÃ‚Â¡ch chÃƒÆ’Ã‚Â¢n cho link.*/
   color: aqua;
 }
 .menu ul {
-  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list ul trong menu vÃ¡Â»Â none.*/
-  position: absolute; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh xÃƒÂ¡c Ã„â€˜Ã¡Â»â€¹nh loÃ¡ÂºÂ¡i cÃ¡Â»Â§a phÃ†Â°Ã†Â¡ng phÃƒÂ¡p Ã„â€˜Ã¡Â»â€¹nh vÃ¡Â»â€¹ trÃƒÂ­ cho thÃƒÂ nh phÃ¡ÂºÂ§n gt absolute lÃƒÂ  cho nÃ¡Â»â€¢i lÃƒÂªn trÃƒÂªn.*/
+  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list ul trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
+  position: absolute; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh xÃƒÆ’Ã‚Â¡c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh loÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÂ¡Ã‚Â»Ã‚Â§a phÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng phÃƒÆ’Ã‚Â¡p Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n gt absolute lÃƒÆ’Ã‚Â  cho nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Âªn.*/
   top: 42px;
   left: 0px;
   display: none;
 }
 .menu li {
   float: left;
-  width: 151px; /*thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu rÃ¡Â»â„¢ng*/
-  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list li trong menu vÃ¡Â»Â none.*/
-  line-height: 15px; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu cao giÃ¡Â»Â¯a cÃƒÂ¡c dÃƒÂ²ng.*/
+  width: 151px; /*thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng*/
+  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list li trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
+  line-height: 15px; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu cao giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng.*/
   position: relative;
-  text-align: center; /*sÃ¡ÂºÂ¯p xÃ¡ÂºÂ¿p nÃ¡Â»â„¢i dung theo chiÃ¡Â»Âu ngang*/
-  background: #002a32; /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
+  text-align: center; /*sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung theo chiÃƒÂ¡Ã‚Â»Ã‚Âu ngang*/
+  background: #002a32; /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
   padding: 13px;
 }
 .menu li:hover {
@@ -151,14 +155,20 @@ img.imagenhanvat {
 }
 
 #btn-prev {
+  padding: 2% 2% 2% 2%;
+  /* padding-left: 1%; */
+  /* border-radius: 50%; */
+  /* background: mintcream; */
   left: 3%;
+  /* padding-right: 1%; */
 }
 #btn-next {
   right: 4%;
 }
 #btn-prev:hover,
 #btn-next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  background-color: rgba(243, 235, 235, 0.8);
 }
 .nut-slide a {
   z-index: 10;
@@ -246,7 +256,7 @@ img.imagenhanvat {
 .paragraph p {
   line-height: 26px;
   font-size: 16px;
-  padding: 0;
+  padding-left: 14px;
   margin: 0;
 }
 .bao {
@@ -278,7 +288,7 @@ img.imagenhanvat {
   float: left;
 }
 
-.paragraph {line-height: 145%;margin: 0;padding: 0;}
+.paragraph {line-height: 145%;margin: 0;padding: 2%;margin-left: 1%;}
 .footer {
   padding: 0;
   display: flex;
@@ -286,7 +296,9 @@ img.imagenhanvat {
   margin: 0;
   justify-content: center;
 }
-
+.footer a:hover {
+  color: white;
+}
 .footer a {
   color: aqua;
   /* text-decoration: none; */
@@ -328,29 +340,29 @@ img.imagenhanvat {
 .taikhoan {
   z-index: 9999999;
   position: relative;
-  /* background-color: aqua; */ /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
+  /* background-color: aqua; */ /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
   /* display: flex; */
   width: 80%;
 }
 .taikhoan a {
-  text-decoration: none; /*loÃ¡ÂºÂ¡i bÃ¡Â»Â gÃ¡ÂºÂ¡ch chÃƒÂ¢n cho link.*/
+  text-decoration: none; /*loÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â gÃƒÂ¡Ã‚ÂºÃ‚Â¡ch chÃƒÆ’Ã‚Â¢n cho link.*/
   /* color: aqua; */
 }
 .taikhoan ul {
-  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list ul trong menu vÃ¡Â»Â none.*/
-  position: absolute; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh xÃƒÂ¡c Ã„â€˜Ã¡Â»â€¹nh loÃ¡ÂºÂ¡i cÃ¡Â»Â§a phÃ†Â°Ã†Â¡ng phÃƒÂ¡p Ã„â€˜Ã¡Â»â€¹nh vÃ¡Â»â€¹ trÃƒÂ­ cho thÃƒÂ nh phÃ¡ÂºÂ§n gt absolute lÃƒÂ  cho nÃ¡Â»â€¢i lÃƒÂªn trÃƒÂªn.*/
+  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list ul trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
+  position: absolute; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh xÃƒÆ’Ã‚Â¡c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh loÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÂ¡Ã‚Â»Ã‚Â§a phÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng phÃƒÆ’Ã‚Â¡p Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n gt absolute lÃƒÆ’Ã‚Â  cho nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Âªn.*/
   top: 42px;
   left: 0px;
   display: none;
 }
 .taikhoan li {
   float: left;
-  width: 151px; /*thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu rÃ¡Â»â„¢ng*/
-  list-style: none; /*cho style cÃ¡Â»Â§a cÃƒÂ¡c list li trong menu vÃ¡Â»Â none.*/
-  line-height: 15px; /*ThuÃ¡Â»â„¢c tÃƒÂ­nh thiÃ¡ÂºÂ¿t lÃ¡ÂºÂ­p chiÃ¡Â»Âu cao giÃ¡Â»Â¯a cÃƒÂ¡c dÃƒÂ²ng.*/
+  width: 151px; /*thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng*/
+  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list li trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
+  line-height: 15px; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu cao giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng.*/
   position: relative;
-  text-align: center; /*sÃ¡ÂºÂ¯p xÃ¡ÂºÂ¿p nÃ¡Â»â„¢i dung theo chiÃ¡Â»Âu ngang*/
-  /* background: #002a32; */ /*mÃƒÂ u cÃ¡Â»Â§a nÃ¡Â»Ân*/
+  text-align: center; /*sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung theo chiÃƒÂ¡Ã‚Â»Ã‚Âu ngang*/
+  /* background: #002a32; */ /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
   padding: 13px;
 }
 .taikhoan li:hover {
@@ -410,4 +422,144 @@ div#grad1 {
   background-image: red;
   background-color: orange;
   height: 3px;
+}
+.paragraph h1 {
+  margin-left: 2%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #611e03;
+  color: #fffdfd;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgba(219, 77, 21, 0.493);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+table {
+  
+    width: 400px;
+    text-align: left;
+}
+.taigame {
+  display: flex;
+  width: 793px;
+  height: 86px;
+  border: 2px solid coral;
+  margin-left: 0%;
+}
+
+.taigame1 {
+  width: 80%;
+  padding: 2%;
+  padding-left: 7%;
+  line-height: 200%;
+}
+
+.taigame1 a:hover {
+  color: red;
+}
+
+.taigame1 a {
+  color: blue;
+}
+.taigame2 {
+  /* margin-left: 14%; */
+  border-radius:5%;
+  width: 147px;
+  margin: 3%;
+  height: 46px;
+  border: 1px solid #3e8f3e;
+  background: #3e8f3e;
+}
+
+.taigame2 button {
+  width: 147px;
+  height: 46px;
+  margin: 3%;
+  margin-left:0;
+  margin-top:0px;
+  border:none;
+  background-color: #3e8f3e;
+}
+/*slide game*/
+.khoislide {
+  position: relative;
+  margin: 0;
+  width: 800px;
+  overflow: hidden;
+  height: 600px;
+}
+
+.cacslide {
+  width: 90000px;
+  transition: all 0.5s;
+}
+
+.cacslide img {
+  float: left;
+  width: 800px;
+  height: 600px;
+}
+
+ .nutchuyen a {
+  padding: 2% 2% 2% 2%;
+  font-size: 40px;
+  top: 48%;
+  padding-left: 20px;
+  color: white;
+  position: absolute;
+} 
+/* ket thuc slideanhgame */
+.paragraph-cauhinh {
+  border-radius: 5px;
+  padding: 0;
+  background-color: #b1d3e4;
+  width: 858px;
+  height: 201px;
+  border: 2px solid #9de9f3;
+  margin: 19px;
+}
+
+.paragraph-cauhinh ul,h1 {
+  margin-left: 11%;
+  margin-top: 2%;
+  line-height: 141%;
+}
+.paragraph-game {
+  height: 257px;
+  display: block;
+  width: 874px;
+  border: 2px solid;
+}
+
+.paragraph-game1 {
+  padding-left: 0;
+  margin-left: 11px;
+  display: flex;
+}
+
+.paragraph-game1 img {
+  width: 80.67px;
+}
+.paragraph-game0 {
+  margin-left: 0%;
+  display: flex;
+  padding-left: 0%;
 }
