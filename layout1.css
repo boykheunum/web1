@@ -2,15 +2,15 @@
 /*comment*/
 * {
   color: black;
-  padding: 0; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh thÃƒÆ’Ã‚Âªm vÃƒÆ’Ã‚Â o khoÃƒÂ¡Ã‚ÂºÃ‚Â£ng khÃƒÆ’Ã‚Â´ng cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n.*/
-  margin: 0; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh canh lÃƒÂ¡Ã‚Â»Ã‚Â cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n.*/
-  font-family: 'Segoe UI';
+  padding: 0; /*ThuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢c tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nh thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªm vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â o khoÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£ng khÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â´ng cho thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â nh phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n.*/
+  margin: 0; /*ThuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢c tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nh canh lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â cho thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â nh phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n.*/
+  font-family: "Segoe UI";
   font-size: 16px;
 }
-a{
+a {
   text-decoration: none;
 }
-img{
+img {
   opacity: 1 !important;
 }
 
@@ -40,30 +40,30 @@ ul.menu span {
 .menu {
   z-index: 9999999;
   position: relative;
-  background-color: #002a32; /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
+  background-color: #002a32; /*mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â u cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Ân*/
   display: flex;
   width: 100%;
   height: 53px;
 }
 .menu a {
-  text-decoration: none; /*loÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â gÃƒÂ¡Ã‚ÂºÃ‚Â¡ch chÃƒÆ’Ã‚Â¢n cho link.*/
+  text-decoration: none; /*loÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i bÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â gÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡ch chÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢n cho link.*/
   color: aqua;
 }
 .menu ul {
-  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list ul trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
-  position: absolute; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh xÃƒÆ’Ã‚Â¡c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh loÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÂ¡Ã‚Â»Ã‚Â§a phÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng phÃƒÆ’Ã‚Â¡p Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n gt absolute lÃƒÆ’Ã‚Â  cho nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Âªn.*/
+  list-style: none; /*cho style cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c list ul trong menu vÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â none.*/
+  position: absolute; /*ThuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢c tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nh xÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹nh loÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a phÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â¡ng phÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡p ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹nh vÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ trÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ cho thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â nh phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n gt absolute lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  cho nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢i lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªn trÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªn.*/
   top: 42px;
   left: 0px;
   display: none;
 }
 .menu li {
   float: left;
-  width: 151px; /*thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng*/
-  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list li trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
-  line-height: 15px; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu cao giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng.*/
+  width: 151px; /*thiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â­p chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu rÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ng*/
+  list-style: none; /*cho style cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c list li trong menu vÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â none.*/
+  line-height: 15px; /*ThuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢c tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nh thiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â­p chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu cao giÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â¯a cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â²ng.*/
   position: relative;
-  text-align: center; /*sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung theo chiÃƒÂ¡Ã‚Â»Ã‚Âu ngang*/
-  background: #002a32; /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
+  text-align: center; /*sÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¯p xÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿p nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢i dung theo chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu ngang*/
+  background: #002a32; /*mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â u cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Ân*/
   padding: 13px;
 }
 .menu li:hover {
@@ -103,7 +103,7 @@ ul.menu span {
   background: aqua;
   font-size: 18px;
 }
-.tieude{
+.tieude {
   padding: 1rem;
   font-size: 30px;
 }
@@ -118,49 +118,42 @@ ul.menu span {
   display: block;
   color: black;
   text-align: left;
-  background-color: rgb(245, 254, 255,0.8);
+  background-color: rgb(245, 254, 255, 0.8);
   width: 74%;
   margin-left: 13%;
 }
 /*slide show*/
-.slide img {
-  vertical-align: middle;
-  width: 670px;
-  height: 376px;
-}
-img.imagenhanvat {
-  width: 14%;
-  height: 176px;
-}
-.slide {
-  display: none;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 .khoi-slide1 {
-  padding: 6%;
-  /* opacity: 1 !important; */
-  text-align: center;
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 0;
+  width: 670px;
+  overflow: hidden;
+  height: 367px;
+}
+
+.cac-slide {
+  width: 90000px;
+  transition: all 0.5s;
+}
+
+.cac-slide img {
+  float: left;
+  width: 670px;
+  height: 367px;
+}
+
+.nut-slide a {
+  padding: 2% 2% 2% 2%;
+  font-size: 40px;
+  top: 48%;
+  padding-left: 20px;
+  color: white;
+  position: absolute;
 }
 
 #btn-prev {
   padding: 2% 2% 2% 2%;
-  /* padding-left: 1%; */
-  /* border-radius: 50%; */
-  /* background: mintcream; */
   left: 3%;
-  /* padding-right: 1%; */
 }
 #btn-next {
   right: 4%;
@@ -170,53 +163,7 @@ img.imagenhanvat {
   border-radius: 50%;
   background-color: rgba(243, 235, 235, 0.8);
 }
-.nut-slide a {
-  z-index: 10;
-  cursor: pointer;
-  height: 65px;
-  width: 65px;
-  border-radius: 50%;
-  top: 43%;
-  position: absolute;
-  color: white;
-  /* font-size: 10px; */
-  opacity: 0.9;
-  font-size: 60px;
-  text-align: center;
-}
-.button-dot {
-  position: relative;
-  top: -20px;
-  left: -15px;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active,.dot:hover {
-  background-color: #717171;
-}
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
+/*ket thuc slide*/
 .live-after-dead {
   float: left;
   display: flex;
@@ -232,25 +179,27 @@ img.imagenhanvat {
   opacity: 1;
   width: 70%;
 }
-
-
+img.imagenhanvat {
+    width: 14%;
+    height: 176px;
+  }
 .paragraph-menu a {
-    border: 1px solid #fff;
-    display: block;
+  border: 1px solid #fff;
+  display: block;
 }
-.paragraph-menu .p{
+.paragraph-menu .p {
   display: inline-block;
-    margin: 10px 25px;
-    width: 35%;
-    line-height: 50px;
-    text-align: center;
-    background-color: #a34112;
-    border: 2px solid transparent;
-    font-size: 180%;
-    font-family: times;
-    position: relative;
+  margin: 10px 25px;
+  width: 35%;
+  line-height: 50px;
+  text-align: center;
+  background-color: #a34112;
+  border: 2px solid transparent;
+  font-size: 180%;
+  font-family: times;
+  position: relative;
 }
-.paragraph-menu .p:hover{
+.paragraph-menu .p:hover {
   background-color: white;
 }
 .paragraph p {
@@ -288,7 +237,12 @@ img.imagenhanvat {
   float: left;
 }
 
-.paragraph {line-height: 145%;margin: 0;padding: 2%;margin-left: 1%;}
+.paragraph {
+  line-height: 145%;
+  margin: 0;
+  padding: 2%;
+  margin-left: 1%;
+}
 .footer {
   padding: 0;
   display: flex;
@@ -315,54 +269,55 @@ img.imagenhanvat {
 .column1 ul {
   list-style: none;
 }
-.tai img {width: 85px;}
+.tai img {
+  width: 85px;
+}
 
 .ios img {
-    width: 117px;
+  width: 117px;
 }
 
 .imagebanner {
-    display: flex;
+  display: flex;
 }
 
 .column1 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 18%;
-    line-height: 163%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+  line-height: 163%;
 }
 .column4 {
   width: 11%;
 }
 
-
 .taikhoan {
   z-index: 9999999;
   position: relative;
-  /* background-color: aqua; */ /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
+  /* background-color: aqua; */ /*mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â u cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Ân*/
   /* display: flex; */
   width: 80%;
 }
 .taikhoan a {
-  text-decoration: none; /*loÃƒÂ¡Ã‚ÂºÃ‚Â¡i bÃƒÂ¡Ã‚Â»Ã‚Â gÃƒÂ¡Ã‚ÂºÃ‚Â¡ch chÃƒÆ’Ã‚Â¢n cho link.*/
+  text-decoration: none; /*loÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i bÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â gÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡ch chÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢n cho link.*/
   /* color: aqua; */
 }
 .taikhoan ul {
-  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list ul trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
-  position: absolute; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh xÃƒÆ’Ã‚Â¡c Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh loÃƒÂ¡Ã‚ÂºÃ‚Â¡i cÃƒÂ¡Ã‚Â»Ã‚Â§a phÃƒâ€ Ã‚Â°Ãƒâ€ Ã‚Â¡ng phÃƒÆ’Ã‚Â¡p Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹nh vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ trÃƒÆ’Ã‚Â­ cho thÃƒÆ’Ã‚Â nh phÃƒÂ¡Ã‚ÂºÃ‚Â§n gt absolute lÃƒÆ’Ã‚Â  cho nÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢i lÃƒÆ’Ã‚Âªn trÃƒÆ’Ã‚Âªn.*/
+  list-style: none; /*cho style cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c list ul trong menu vÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â none.*/
+  position: absolute; /*ThuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢c tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nh xÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹nh loÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a phÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â¡ng phÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡p ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹nh vÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ trÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ cho thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â nh phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n gt absolute lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  cho nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢i lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªn trÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªn.*/
   top: 42px;
   left: 0px;
   display: none;
 }
 .taikhoan li {
   float: left;
-  width: 151px; /*thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu rÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng*/
-  list-style: none; /*cho style cÃƒÂ¡Ã‚Â»Ã‚Â§a cÃƒÆ’Ã‚Â¡c list li trong menu vÃƒÂ¡Ã‚Â»Ã‚Â none.*/
-  line-height: 15px; /*ThuÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢c tÃƒÆ’Ã‚Â­nh thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t lÃƒÂ¡Ã‚ÂºÃ‚Â­p chiÃƒÂ¡Ã‚Â»Ã‚Âu cao giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c dÃƒÆ’Ã‚Â²ng.*/
+  width: 151px; /*thiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â­p chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu rÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ng*/
+  list-style: none; /*cho style cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c list li trong menu vÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â none.*/
+  line-height: 15px; /*ThuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢c tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nh thiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â­p chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu cao giÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â¯a cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c dÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â²ng.*/
   position: relative;
-  text-align: center; /*sÃƒÂ¡Ã‚ÂºÃ‚Â¯p xÃƒÂ¡Ã‚ÂºÃ‚Â¿p nÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢i dung theo chiÃƒÂ¡Ã‚Â»Ã‚Âu ngang*/
-  /* background: #002a32; */ /*mÃƒÆ’Ã‚Â u cÃƒÂ¡Ã‚Â»Ã‚Â§a nÃƒÂ¡Ã‚Â»Ã‚Ân*/
+  text-align: center; /*sÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¯p xÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿p nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢i dung theo chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu ngang*/
+  /* background: #002a32; */ /*mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â u cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Ân*/
   padding: 13px;
 }
 .taikhoan li:hover {
@@ -370,7 +325,7 @@ img.imagenhanvat {
   cursor: pointer;
 }
 
-.dangnhap{
+.dangnhap {
   display: block;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -380,33 +335,33 @@ img.imagenhanvat {
   border: 2px solid orangered;
   border-radius: 10px;
   text-align: center;
-  background-color:wheat;
+  background-color: wheat;
 }
-.dangnhap h2{
+.dangnhap h2 {
   color: black;
 }
-.dangnhap input{
+.dangnhap input {
   width: 260px;
   height: 40px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding-left: 2%;
 }
-.dangnhap button{
+.dangnhap button {
   width: 200px;
   height: 40px;
   margin-bottom: 10px;
   border: none;
-  background-color:orange;
+  background-color: orange;
 }
-.dangnhap p{
+.dangnhap p {
   text-align: left;
-} 
+}
 
-.checkbox input{
-width: 20px;
-height: 20px;
-}  
+.checkbox input {
+  width: 20px;
+  height: 20px;
+}
 .game {
   display: flex;
   padding: 2%;
@@ -441,7 +396,8 @@ div#grad1 {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: rgba(219, 77, 21, 0.493);
 }
 
@@ -453,9 +409,8 @@ div#grad1 {
   overflow: hidden;
 }
 table {
-  
-    width: 400px;
-    text-align: left;
+  width: 400px;
+  text-align: left;
 }
 .taigame {
   display: flex;
@@ -481,7 +436,7 @@ table {
 }
 .taigame2 {
   /* margin-left: 14%; */
-  border-radius:5%;
+  border-radius: 5%;
   width: 147px;
   margin: 3%;
   height: 46px;
@@ -493,9 +448,9 @@ table {
   width: 147px;
   height: 46px;
   margin: 3%;
-  margin-left:0;
-  margin-top:0px;
-  border:none;
+  margin-left: 0;
+  margin-top: 0px;
+  border: none;
   background-color: #3e8f3e;
 }
 /*slide game*/
@@ -518,35 +473,39 @@ table {
   height: 600px;
 }
 
- .nutchuyen a {
+.nutchuyen a {
   padding: 2% 2% 2% 2%;
   font-size: 40px;
   top: 48%;
   padding-left: 20px;
   color: white;
   position: absolute;
-} 
+}
 /* ket thuc slideanhgame */
 .paragraph-cauhinh {
   border-radius: 5px;
   padding: 0;
   background-color: #b1d3e4;
-  width: 858px;
+  width: 95%;
   height: 201px;
   border: 2px solid #9de9f3;
   margin: 19px;
 }
 
-.paragraph-cauhinh ul,h1 {
+.paragraph-cauhinh ul,
+h1 {
   margin-left: 11%;
   margin-top: 2%;
   line-height: 141%;
 }
 .paragraph-game {
+  border-radius: 7px;
+  margin-left: 2%;
+  background-color: whitesmoke;
   height: 257px;
   display: block;
-  width: 874px;
-  border: 2px solid;
+  width: 95%;
+  border: 2px solid #9bf5f5;
 }
 
 .paragraph-game1 {
@@ -562,4 +521,13 @@ table {
   margin-left: 0%;
   display: flex;
   padding-left: 0%;
+}
+.paragraph-game h1 {
+  background-color: aqua;
+  border: 2px solid #9bf5f5;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  border-radius: 7px;
+  line-height: 28px;
 }
