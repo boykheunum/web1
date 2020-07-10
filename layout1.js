@@ -1,4 +1,17 @@
 /*dropdown menu*/
+function opentab(e, tabID){
+   var content=document.getElementsByClassName("tabContent");
+   for(var i=0; i<content.length; i++){
+       content[i].style.display="none";
+   }
+   content[tabID].style.display="block";
+
+   // var tablink=document.getElementsByClassName("tablink");
+   // for(var i=0; i<tablink.length; i++){
+   //     tablink[i].className = tablink[i].className.replace(" active","");
+   // }
+   // event.currentTarget.className+=" active";
+}
 $(document).ready(function () {
    $('.menu li').hover(function () {
       $(this).find("ul:first").slideDown(500);/*khi hover chuot thi se hien ra bang menu*/
@@ -69,3 +82,22 @@ function Back() {
 setInterval(function(){
    Next();
 },3000);
+
+// var acc = document.getElementsByClassName("accordion");
+//     var i;
+
+//     for (i = 0; i < acc.length; i++) {
+//       acc[i].addEventListener("click", function () {
+//         /* Toggle between adding and removing the "active" class,
+//         to highlight the button that controls the panel */
+//         this.classList.toggle("active");
+
+//         /* Toggle between hiding and showing the active panel */
+//         var panel = this.nextElementSibling;
+//         if (panel.style.display === "block") {
+//           panel.style.display = "none";
+//         } else {
+//           panel.style.display = "block";
+//         }
+//       });
+//     }
